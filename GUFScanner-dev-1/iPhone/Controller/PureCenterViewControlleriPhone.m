@@ -2,8 +2,8 @@
 //  PureCenterViewControlleriPhone.m
 //  Untitled
 //
-//  Created by Neo on 2011/1/21.
-//  Copyright 2011 Mobilogics. All rights reserved.
+//  Created by Matthias Lukjantschuk on 2011/1/21.
+//  Copyright 2011 GundF. All rights reserved.
 //
 
 #import "PureCenterViewControlleriPhone.h"
@@ -214,7 +214,9 @@
                                                                             delegate:self
                                                                    cancelButtonTitle:@"OK"
                                                                    otherButtonTitles:nil];
+      
       [scannerNotConnectedAlertView show];
+      
   }
 }
 
@@ -304,7 +306,7 @@
     reader.readerDelegate = self;
     reader.supportedOrientationsMask = ZBarOrientationMaskAll;
     
-    ZBarImageScanner *scanner = reader.scanner;
+  //  ZBarImageScanner *scanner = reader.scanner;
     // TODO: (optional) additional reader configuration here
     
     // EXAMPLE: disable rarely used I2/5 to improve performance

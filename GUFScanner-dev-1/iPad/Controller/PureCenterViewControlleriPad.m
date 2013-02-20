@@ -3,7 +3,7 @@
 //  Untitled
 //
 //  Created by mikimoto on 2011/1/21.
-//  Copyright 2011 Mobilogics. All rights reserved.
+//  Copyright 2011 GundF. All rights reserved.
 //
 
 #import "PureCenterViewControlleriPad.h"

@@ -40,7 +40,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.title = self.websiteName;
-    NSString *fullURL = [NSString stringWithFormat:@"http://192.168.2.10/MitarbeiterZeiterfassungsMobile?Von=&Bis=&Mid=6", self.websiteName];
+    NSString *fullURL = [NSString stringWithFormat:@"http://192.168.2.10/MitarbeiterZeiterfassungsMobile?Von=&Bis=&Mid=5", self.websiteName];
     NSURL *websiteURL = [NSURL URLWithString:fullURL];
     NSURLRequest *requestObj = [NSURLRequest requestWithURL:websiteURL];
     [webView loadRequest:requestObj];

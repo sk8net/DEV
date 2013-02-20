@@ -11,12 +11,6 @@
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
-		490BB57112E98DE200242991 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BB56F12E98DE200242991 /* MainWindow_iPad.xib */; };
-		490BB57212E98DE200242991 /* PureCenterViewControlleriPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BB57012E98DE200242991 /* PureCenterViewControlleriPad.xib */; };
-		490BB57712E98DF300242991 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BB57412E98DF300242991 /* AppDelegate_iPad.m */; };
-		490BB57812E98DF300242991 /* PureCenterViewControlleriPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BB57612E98DF300242991 /* PureCenterViewControlleriPad.m */; };
-		490BB57B12E98E0C00242991 /* MainWindow_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BB57912E98E0C00242991 /* MainWindow_iPhone.xib */; };
-		490BB57C12E98E0C00242991 /* PureCenterViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 490BB57A12E98E0C00242991 /* PureCenterViewControlleriPhone.xib */; };
 		490BB58112E98E1A00242991 /* AppDelegate_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BB57E12E98E1A00242991 /* AppDelegate_iPhone.m */; };
 		490BB58212E98E1A00242991 /* PureCenterViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 490BB58012E98E1A00242991 /* PureCenterViewControlleriPhone.m */; };
 		490F5F3314BAEC1A003BA8F2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 490F5F3214BAEC1A003BA8F2 /* CoreData.framework */; };
@@ -75,14 +69,6 @@
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Shared/main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* BarcodeExample_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarcodeExample_Prefix.pch; sourceTree = "<group>"; };
-		490BB56F12E98DE200242991 /* MainWindow_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow_iPad.xib; path = Viewer/MainWindow_iPad.xib; sourceTree = "<group>"; };
-		490BB57012E98DE200242991 /* PureCenterViewControlleriPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PureCenterViewControlleriPad.xib; path = Viewer/PureCenterViewControlleriPad.xib; sourceTree = "<group>"; };
-		490BB57312E98DF300242991 /* AppDelegate_iPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_iPad.h; path = Controller/AppDelegate_iPad.h; sourceTree = "<group>"; };
-		490BB57412E98DF300242991 /* AppDelegate_iPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_iPad.m; path = Controller/AppDelegate_iPad.m; sourceTree = "<group>"; };
-		490BB57512E98DF300242991 /* PureCenterViewControlleriPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PureCenterViewControlleriPad.h; path = Controller/PureCenterViewControlleriPad.h; sourceTree = "<group>"; };
-		490BB57612E98DF300242991 /* PureCenterViewControlleriPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PureCenterViewControlleriPad.m; path = Controller/PureCenterViewControlleriPad.m; sourceTree = "<group>"; };
-		490BB57912E98E0C00242991 /* MainWindow_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow_iPhone.xib; path = Viewer/MainWindow_iPhone.xib; sourceTree = "<group>"; };
-		490BB57A12E98E0C00242991 /* PureCenterViewControlleriPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PureCenterViewControlleriPhone.xib; path = Viewer/PureCenterViewControlleriPhone.xib; sourceTree = "<group>"; };
 		490BB57D12E98E1A00242991 /* AppDelegate_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate_iPhone.h; path = Controller/AppDelegate_iPhone.h; sourceTree = "<group>"; };
 		490BB57E12E98E1A00242991 /* AppDelegate_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate_iPhone.m; path = Controller/AppDelegate_iPhone.m; sourceTree = "<group>"; };
 		490BB57F12E98E1A00242991 /* PureCenterViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PureCenterViewControlleriPhone.h; path = Controller/PureCenterViewControlleriPhone.h; sourceTree = "<group>"; };
@@ -240,28 +226,13 @@
 				E2F006C916981A7B009B244C /* LaufkarteTableCell.m */,
 				E2F006C516981A0C009B244C /* LaufkarteTableViewCell.xib */,
 				E2AC419F167B9B39005E6FF5 /* MainStoryboard.storyboard */,
-				490BB57912E98E0C00242991 /* MainWindow_iPhone.xib */,
 				490BB57F12E98E1A00242991 /* PureCenterViewControlleriPhone.h */,
 				490BB58012E98E1A00242991 /* PureCenterViewControlleriPhone.m */,
-				490BB57A12E98E0C00242991 /* PureCenterViewControlleriPhone.xib */,
 				E5B2197B169DC69F00A56318 /* background_corretion__2@2x.png */,
 				E5AD726316C8436D006E8C9D /* WebViewViewController.h */,
 				E5AD726416C8436D006E8C9D /* WebViewViewController.m */,
 			);
 			path = iPhone;
-			sourceTree = "<group>";
-		};
-		2860E32A111B888700E27156 /* iPad */ = {
-			isa = PBXGroup;
-			children = (
-				490BB57312E98DF300242991 /* AppDelegate_iPad.h */,
-				490BB57412E98DF300242991 /* AppDelegate_iPad.m */,
-				490BB57512E98DF300242991 /* PureCenterViewControlleriPad.h */,
-				490BB57612E98DF300242991 /* PureCenterViewControlleriPad.m */,
-				490BB56F12E98DE200242991 /* MainWindow_iPad.xib */,
-				490BB57012E98DE200242991 /* PureCenterViewControlleriPad.xib */,
-			);
-			path = iPad;
 			sourceTree = "<group>";
 		};
 		28EEBF621118D79A00187D67 /* Shared */ = {
@@ -280,7 +251,6 @@
 				E5687D6F16BA71B300F2B7B7 /* MARP_icon_57_57.png */,
 				E5BDEB5B169F0D560087FB66 /* Default-568h@2x.png */,
 				E24833F0167DDF7E004ECE80 /* Vendor */,
-				2860E32A111B888700E27156 /* iPad */,
 				2860E324111B887F00E27156 /* iPhone */,
 				28EEBF621118D79A00187D67 /* Shared */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -487,10 +457,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				490BB57112E98DE200242991 /* MainWindow_iPad.xib in Resources */,
-				490BB57212E98DE200242991 /* PureCenterViewControlleriPad.xib in Resources */,
-				490BB57B12E98E0C00242991 /* MainWindow_iPhone.xib in Resources */,
-				490BB57C12E98E0C00242991 /* PureCenterViewControlleriPhone.xib in Resources */,
 				E2AC41A0167B9B39005E6FF5 /* MainStoryboard.storyboard in Resources */,
 				E24833EB167DDF60004ECE80 /* zbar-back.png in Resources */,
 				E24833EC167DDF60004ECE80 /* zbar-help.html in Resources */,
@@ -515,8 +481,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
-				490BB57712E98DF300242991 /* AppDelegate_iPad.m in Sources */,
-				490BB57812E98DF300242991 /* PureCenterViewControlleriPad.m in Sources */,
 				490BB58112E98E1A00242991 /* AppDelegate_iPhone.m in Sources */,
 				490BB58212E98E1A00242991 /* PureCenterViewControlleriPhone.m in Sources */,
 				E2AC4196167B99FF005E6FF5 /* AFHTTPClient.m in Sources */,

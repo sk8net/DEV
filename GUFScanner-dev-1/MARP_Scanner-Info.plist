@@ -50,9 +50,9 @@
 	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>UISupportedExternalAccessoryProtocols</key>
 	<array>
-		<string>tw.com.mobilogics.ipdt380</string>
-		<string>tw.com.mobilogics.iscan</string>
-		<string>tw.com.mobilogics.ascan</string>
+		<string>tw.com.GundF.ipdt380</string>
+		<string>tw.com.GundF.iscan</string>
+		<string>tw.com.GundF.ascan</string>
 	</array>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>

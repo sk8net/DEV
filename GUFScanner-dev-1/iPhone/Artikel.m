@@ -2,8 +2,8 @@
 //  Artikel.m
 //  BarcodeExample
 //
-//  Created by Tom Jowett on 2/1/13.
-//  Copyright (c) 2013 Mobilogics. All rights reserved.
+//  Created by Matthias Lukjantschuk on 2/1/13.
+//  Copyright (c) 2013 GundF. All rights reserved.
 //
 
 #import "Artikel.h"

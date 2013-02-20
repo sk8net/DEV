@@ -2,8 +2,8 @@
 //  BestellInformationViewController.h
 //  BarcodeExample
 //
-//  Created by Tom Jowett on 15/12/12.
-//  Copyright (c) 2012 Mobilogics. All rights reserved.
+//  Created by Matthias Lukjantschuk on 15/12/12.
+//  Copyright (c) 2012 GundF. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
